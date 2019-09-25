@@ -1,0 +1,24 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-hello-biwug-client-side-solution",
+    "id": "3d192760-c0cc-4f20-ba5e-af4f8d6bfd1f",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false,
+    "features": [{
+      "title": "biwug-feature-framework-assets",
+      "description": "Example of how to provision assets using oldskool feature framework",
+      "id": "ef79c0b6-83ae-4911-8463-ad0822528959",
+      "version": "1.0.0.0",
+      "assets": {
+        "elementManifests": [
+          "elements.xml"
+        ]
+      }
+    }]
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-hello-biwug.sppkg"
+  }
+}

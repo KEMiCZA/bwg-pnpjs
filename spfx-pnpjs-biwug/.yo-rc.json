@@ -1,0 +1,11 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": false,
+    "environment": "spo",
+    "version": "1.7.1",
+    "libraryName": "bootcamp-vnt",
+    "libraryId": "99a54ed1-5b45-4855-af66-66474429737d",
+    "packageManager": "npm",
+    "componentType": "webpart"
+  }
+}

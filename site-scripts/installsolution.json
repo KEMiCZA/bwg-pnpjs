@@ -1,0 +1,12 @@
+{
+  "$schema": "schema.json",
+  "actions": [
+    {
+      "verb": "installSolution",
+      "id": "3d192760-c0cc-4f20-ba5e-af4f8d6bfd1f",
+      "name": "spfx-hello-biwug-client-side-solution"
+    }
+  ],
+  "bindata": {},
+  "version": 1
+}

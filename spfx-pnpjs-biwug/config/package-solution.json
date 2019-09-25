@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "bootcamp-vnt-client-side-solution",
+    "id": "99a54ed1-5b45-4855-af66-66474429737d",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true
+  },
+  "paths": {
+    "zippedPackage": "solution/bootcamp-vnt.sppkg"
+  }
+}

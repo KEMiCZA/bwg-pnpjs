@@ -1,0 +1,27 @@
+{
+    "$schema": "schema.json",
+    "actions": [
+        {
+            "verb": "createSPList",
+            "listName": "PnPJSListFromSiteDesign",
+            "templateType": 100,
+            "subactions": []
+        },
+        {
+            "verb": "installSolution",
+            "id": "3d192760-c0cc-4f20-ba5e-af4f8d6bfd1f",
+            "name": "spfx-hello-biwug-client-side-solution"
+        },
+        {
+            "verb": "triggerFlow",
+            "url": "https://prod-11.westeurope.logic.azure.com:443/workflows/92a4ac805428463483e176b591a7ce3f/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=UxsztAwbGudrMNJQ11dZWQeObnEE-vAV4MKrDo3sMgw",
+            "name": "Trigger Azure Function Flow",
+            "parameters": {
+                "event": "site creation",
+                "product": "SharePoint Online"
+            }
+        }
+    ],
+    "bindata": {},
+    "version": 1
+}
